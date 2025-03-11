@@ -9,7 +9,7 @@ namespace Filters.Controllers
     //[MySampleAsyncActionFilter("Controller")]
 
 
-    //Test
+    //Tests
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -19,7 +19,7 @@ namespace Filters.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger) 
         {
             _logger = logger;
         }
